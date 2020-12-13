@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="gl-matrix-min.js"></script>
+    <script src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>IliasHDZ</title>
+</head>
+<body>
+    <canvas id="canvas" width="1280" height="680" class="i-canvas"></canvas>
+    <h1 class="title-name">IliasHDZ</h1>
+    <h1 class="subtitle-name">Welcome to my website. The answer to who Joe is.</h1>
+    <div class="topbar">
+        <h3 class="topbar-title">IliasHDZ</h3>
+        <a href="#home" onclick="clickHome(true)" class="topbar-selec">Home</a>
+        <a href="#portfolio" onclick="clickPortfolio(true)" class="topbar-selec">Portfolio</a>
+        <a href="#contact" onclick="clickContact(true)" class="topbar-selec">Contact</a>
+    </div>
+    <canvas id="canvas-t" width=1280 height="100" class="t-canvas"></canvas>
+    <div class="mid-content" id="content">
+        <h1 class="title">Loading lol...</h1>
+    </div>
+    <div class="footer">
+        <div class="mid-footer">
+            <div class="logo-text">
+                <img src="pfp.jpg" alt="IliasHDZ" width="60" height="60" style="margin-top: 0; border: none;">
+                <div class="text-of-logo">IliasHDZ</div>
+            </div>
+            <div class="footer-content">
+                <div class="fcont">
+                    <p class="fcont-title">Pages</p>
+                    <a class="fcont-selec" href="#home" onclick="clickHome(false)">Home</a>
+                    <a class="fcont-selec" href="#portfolio" onclick="clickPortfolio(false)">Portfolio</a>
+                    <a class="fcont-selec" href="#contact" onclick="clickContact(false)">Contact</a>
+                </div>
+                <div class="fcont">
+                    <p class="fcont-title">Social Media</p>
+                    <a class="fcont-selec" href="https://twitter.com/ilias_hdz">Twitter</a>
+                    <a class="fcont-selec" href="https://www.youtube.com/channel/UCoIrH16mXtdQPoFGjaD_8hg">Youtube</a>
+                    <a class="fcont-selec" href="https://www.reddit.com/user/IliasHDZ">Reddit</a>
+                    <a class="fcont-selec" href="https://github.com/iliasHDZ">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
